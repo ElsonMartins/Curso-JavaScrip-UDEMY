@@ -2,7 +2,7 @@
   position: relative;
   top: -8rem;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   gap: var(--gap);
   height: 100vh;
 }
@@ -18,6 +18,11 @@
   height: auto;
 }
 
+.intro-img-logo {
+  max-width: 30%;
+  height: auto;
+}
+
 .top3-content {
   max-width: 80rem;
   display: flex;
@@ -25,4 +30,44 @@
   justify-content: center;
   height: 100vh;
   text-align: center;
+}
+
+.personagens-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  height: 100vh;
+}
+
+.personagens-main-heading {
+  margin-bottom: 1rem;
+}
+
+.personagens-description{
+  padding-bottom: 5rem;
+}
+
+.grid-personagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  counter-reset: grid-counter;
+}
+
+.grid-personagens h3 {
+  font-size: 3rem;
+  position: relative;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+}
+
+.grid-personagens h3::before{
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 5.5rem;
+  font-style: italic;
+  top: -4rem;
+  left: -2rem;
+  transform: rotate(5deg);
 }
