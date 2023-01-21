@@ -32,36 +32,36 @@
   text-align: center;
 }
 
-.personagens-content {
+.grid-one-content {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   height: 100vh;
 }
 
-.personagens-main-heading {
+.grid-main-heading {
   margin-bottom: 1rem;
 }
 
-.personagens-description{
+.grid-description {
   padding-bottom: 5rem;
 }
 
-.grid-personagens {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
   counter-reset: grid-counter;
 }
 
-.grid-personagens h3 {
+.grid h3 {
   font-size: 3rem;
   position: relative;
   padding-left: 5rem;
   padding-bottom: 2rem;
 }
 
-.grid-personagens h3::before{
+.grid h3::before{
   counter-increment: grid-counter;
   content: counter(grid-counter);
   position: absolute;
