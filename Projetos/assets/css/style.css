@@ -209,11 +209,13 @@ footer p {
 
   .menu {
     bottom: 0;
+    text-align: center;
   }
 
-  .menu-content, .menu-content ul {
+  .menu-content,.menu-content ul {
     flex-direction: column;
     justify-content: center;
+    
   }
 
   .menu-content {
@@ -252,6 +254,5 @@ footer p {
   .menu-spacing {
     display: none;
   }
-
 }
 
