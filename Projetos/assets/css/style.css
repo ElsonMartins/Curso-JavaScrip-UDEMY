@@ -193,6 +193,16 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .intro-img-logo {
+    width: 10%;
+    max-width: auto;
+    max-height: auto;
+  }
+
+  .intro-img {
+    max-width: 360px;
+  }
+
   .galeria-img {
     width: 100%;
     max-width: 100%;
