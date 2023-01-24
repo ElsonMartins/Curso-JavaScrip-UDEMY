@@ -196,13 +196,17 @@ footer p {
   .intro-img-logo {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 360px;
   }
 
-
+  .grid-main-heading {
+    font-size: 4rem;
+  }
 
   .intro-img {
     max-width: 360px;
+    display: flex;
+    flex-direction: column;
   }
 
   .galeria-img {
@@ -265,6 +269,11 @@ footer p {
 
   .menu-spacing {
     display: none;
+  }
+
+  .intro-text-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 
