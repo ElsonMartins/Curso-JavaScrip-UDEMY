@@ -194,9 +194,9 @@ footer p {
   }
 
   .intro-img-logo {
-    width: 10%;
-    max-width: auto;
-    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
   }
 
   .intro-img {
