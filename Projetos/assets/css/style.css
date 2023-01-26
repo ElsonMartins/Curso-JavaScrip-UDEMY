@@ -176,14 +176,14 @@ footer p {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: var(--white-color);
+  background: rgb(105, 207, 241);
   width: 5rem;
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: var(--primary-color);
+  color: rgb(240, 36, 36);
   transform: rotate(-90deg);
   border: 0.1rem solid var(--primary-color);
 }
@@ -204,9 +204,10 @@ footer p {
   }
 
   .intro-img {
-    max-width: 360px;
     display: flex;
     flex-direction: column;
+    max-width: 360px;
+
   }
 
   .galeria-img {
@@ -248,8 +249,8 @@ footer p {
     z-index: 2;
     top: 2rem;
     right:2rem;
-    background: var(--primary-color);
-    color: var(--white-color);
+    background: rgb(105, 207, 241);
+    color: rgb(240, 36, 36);
     font-size: 3rem;
     line-height: 3rem;
     width: 3rem;
